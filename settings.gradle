@@ -1,0 +1,3 @@
+rootProject.name = "rtsp.client"
+
+include ':rtsp.client', ':simpleplayer'
