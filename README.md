@@ -21,8 +21,9 @@
     ```
 
 ### 使用
-
-    TextureView texture = findViewById(R.id.texture_view);
+    ```java
+    TextureView textureView = findViewById(R.id.texture_view);
     String rtspUrl = "rtsp://admin:123456@192.168.1.107:554/";
     RtspClient client = new RtspClient(this, "custom key", textureView, null, null);
     client.play(BuildConfig.RTSP_URL);
+    ```
